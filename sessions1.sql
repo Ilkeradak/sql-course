@@ -20,7 +20,7 @@
 	/*tracks tablosundaki composer bilgileri sorgulayınız (TEKRARSIZ) */
 	SELECT DISTINCT Composer FROM tracks;
 	
-	/*tracks tablosundaki AlbumId ve MediaTypeId bigilerini TEKRARSIZ olarak 
+	/* tablosundaki AlbumId ve MediaTypeId bigilerini TEKRARSIZ olarak 
 	sorgulayınız */
 	SELECT DISTINCT AlbumId, MediaTypeId FROM tracks;
 		
